@@ -12,94 +12,55 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# reading modelsim.ini
-# Loading project lab1a
-# reading modelsim.ini
-# reading C:/modeltech64_10.6e/win64/../modelsim.ini
-# Loading project lab1b
-# Compile of min_max_finder_part2.v was successful.
-# Compile of min_max_finder_part2_tb.v was successful.
+# Loading project lab1c
+# Compile of min_max_finder_part3_M1.v was successful.
+# Compile of min_max_finder_part3_M1_tb.v was successful.
 # 2 compiles, 0 failed with no errors.
-vsim -gui work.min_max_finder_part2_tb -novopt
-# vsim -gui work.min_max_finder_part2_tb -novopt 
-# Start time: 20:09:48 on Sep 12,2024
+vsim -gui work.min_max_finder_part3_M1_tb -novopt
+# vsim -gui work.min_max_finder_part3_M1_tb -novopt 
+# Start time: 20:54:32 on Sep 14,2024
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Modelsim_projects/lab1b/work.min_max_finder_part2_tb
-# Loading work.min_max_finder_part2_tb
-# Refreshing C:/Modelsim_projects/lab1b/work.min_max_finder_part2
-# Loading work.min_max_finder_part2
+# Refreshing C:/Modelsim_projects/lab1c/work.min_max_finder_part3_M1_tb
+# Loading work.min_max_finder_part3_M1_tb
+# Refreshing C:/Modelsim_projects/lab1c/work.min_max_finder_part3_M1
+# Loading work.min_max_finder_part3_M1
 add wave -position insertpoint  \
-sim:/min_max_finder_part2_tb/CLK_PERIOD \
-sim:/min_max_finder_part2_tb/Max_tb \
-sim:/min_max_finder_part2_tb/Min_tb \
-sim:/min_max_finder_part2_tb/Start_tb \
-sim:/min_max_finder_part2_tb/Clk_tb \
-sim:/min_max_finder_part2_tb/Reset_tb \
-sim:/min_max_finder_part2_tb/Qi_tb \
-sim:/min_max_finder_part2_tb/Ql_tb \
-sim:/min_max_finder_part2_tb/Qcmx_tb \
-sim:/min_max_finder_part2_tb/Qcmn_tb \
-sim:/min_max_finder_part2_tb/Qd_tb \
-sim:/min_max_finder_part2_tb/state_string \
-sim:/min_max_finder_part2_tb/last_UUT_state_string \
-sim:/min_max_finder_part2_tb/Clk_cnt \
-sim:/min_max_finder_part2_tb/file_results \
-sim:/min_max_finder_part2_tb/test_number \
-sim:/min_max_finder_part2_tb/M_tb \
-sim:/min_max_finder_part2_tb/M_of_I
-run 1000000ns
-# Causality operation skipped due to absence of debug database file
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-quit -sim
-# End time: 20:11:22 on Sep 12,2024, Elapsed time: 0:01:34
-# Errors: 15, Warnings: 2
-# Compile of min_max_finder_part2.v was successful.
-# Compile of min_max_finder_part2_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of min_max_finder_part2.v was successful.
-# Compile of min_max_finder_part2_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of min_max_finder_part2.v was successful.
-# Compile of min_max_finder_part2_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui -novopt work.min_max_finder_part2_tb
-# vsim -gui -novopt work.min_max_finder_part2_tb 
-# Start time: 20:14:40 on Sep 12,2024
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Modelsim_projects/lab1b/work.min_max_finder_part2_tb
-# Loading work.min_max_finder_part2_tb
-# Refreshing C:/Modelsim_projects/lab1b/work.min_max_finder_part2
-# Loading work.min_max_finder_part2
+sim:/min_max_finder_part3_M1_tb/CLK_PERIOD \
+sim:/min_max_finder_part3_M1_tb/Max_tb \
+sim:/min_max_finder_part3_M1_tb/Min_tb \
+sim:/min_max_finder_part3_M1_tb/Start_tb \
+sim:/min_max_finder_part3_M1_tb/Clk_tb \
+sim:/min_max_finder_part3_M1_tb/Reset_tb \
+sim:/min_max_finder_part3_M1_tb/Qi_tb \
+sim:/min_max_finder_part3_M1_tb/Ql_tb \
+sim:/min_max_finder_part3_M1_tb/Qcmx_tb \
+sim:/min_max_finder_part3_M1_tb/Qcmnf_tb \
+sim:/min_max_finder_part3_M1_tb/Qcmn_tb \
+sim:/min_max_finder_part3_M1_tb/Qcmxf_tb \
+sim:/min_max_finder_part3_M1_tb/Qd_tb \
+sim:/min_max_finder_part3_M1_tb/state_string \
+sim:/min_max_finder_part3_M1_tb/last_UUT_state_string \
+sim:/min_max_finder_part3_M1_tb/Clk_cnt \
+sim:/min_max_finder_part3_M1_tb/file_results \
+sim:/min_max_finder_part3_M1_tb/test_number \
+sim:/min_max_finder_part3_M1_tb/M_tb \
+sim:/min_max_finder_part3_M1_tb/M_of_I
 run 500ns
-run 10000ns
+run 5000ns
 # Test number   1: Max: 245 decimal = f5 hex   and   Min:   2 decimal = 02 hex
 #     Design entered DONE state from   CMx .
 #            Clocks taken for this test = 26. 
 # 
 # Test number   2: Max: 185 decimal = b9 hex   and   Min:   1 decimal = 01 hex
-#     Design entered DONE state from   CMn .
-#            Clocks taken for this test = 28. 
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 25. 
 # 
 # Test number   3: Max: 222 decimal = de hex   and   Min:  30 decimal = 1e hex
-#     Design entered DONE state from   CMn .
-#            Clocks taken for this test = 24. 
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 31. 
 # 
 # Test number   4: Max: 255 decimal = ff hex   and   Min:   0 decimal = 00 hex
-#     Design entered DONE state from   CMn .
+#     Design entered DONE state from  CMnF .
 #            Clocks taken for this test = 31. 
 # 
 # Test number   5: Max: 130 decimal = 82 hex   and   Min: 115 decimal = 73 hex
@@ -108,19 +69,43 @@ run 10000ns
 # 
 # Test number   6: Max: 130 decimal = 82 hex   and   Min: 115 decimal = 73 hex
 #     Design entered DONE state from   CMn .
-#            Clocks taken for this test = 31. 
+#            Clocks taken for this test = 17. 
 # 
 # Test number   7: Max: 130 decimal = 82 hex   and   Min: 117 decimal = 75 hex
-#     Design entered DONE state from   CMn .
-#            Clocks taken for this test = 25. 
+#     Design entered DONE state from  CMxF .
+#            Clocks taken for this test = 20. 
 # 
 # Test number   8: Max: 129 decimal = 81 hex   and   Min:  35 decimal = 23 hex
-#     Design entered DONE state from   CMn .
-#            Clocks taken for this test = 24. 
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 19. 
+# 
+# Test number   9: Max: 162 decimal = a2 hex   and   Min:   2 decimal = 02 hex
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 25. 
+# 
+# Test number  10: Max: 254 decimal = fe hex   and   Min:  94 decimal = 5e hex
+#     Design entered DONE state from  CMxF .
+#            Clocks taken for this test = 26. 
+# 
+run 10000ns
+# Test number  11: Max: 209 decimal = d1 hex   and   Min:  33 decimal = 21 hex
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 27. 
+# 
+# Test number  12: Max: 245 decimal = f5 hex   and   Min:  17 decimal = 11 hex
+#     Design entered DONE state from   CMx .
+#            Clocks taken for this test = 20. 
+# 
+# Test number  13: Max: 166 decimal = a6 hex   and   Min:  70 decimal = 46 hex
+#     Design entered DONE state from  CMxF .
+#            Clocks taken for this test = 20. 
+# 
+# Test number  14: Max: 166 decimal = a6 hex   and   Min:  70 decimal = 46 hex
+#     Design entered DONE state from  CMxF .
+#            Clocks taken for this test = 20. 
 # 
 # 
-#  All tests concluded. Inspect the text file output_results_part2.txt. 
-#  Current Clock Count = 223 
-quit -sim
-# End time: 20:16:06 on Sep 12,2024, Elapsed time: 0:01:26
+#  All tests concluded. Inspect the text file output_results_part3_M1.txt. 
+#  Current Clock Count = 353 
+# End time: 20:56:49 on Sep 14,2024, Elapsed time: 0:02:17
 # Errors: 0, Warnings: 1
