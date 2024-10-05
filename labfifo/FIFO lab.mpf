@@ -834,7 +834,7 @@ Resolution = ns
 UserTimeUnit = default
 
 ; Default run length
-RunLength = 100 ps
+RunLength = 100 ns
 
 ; Maximum iterations that can be run without advancing simulation time
 IterationLimit = 10000000
@@ -1998,6 +1998,8 @@ MvcHome = $MODEL_TECH/..
 ;    (e.g. SVPrettyPrintFlags=I4S,L20,C256,F4,E50,D5,Rb)
 ; SVPrettyPrintFlags=I4S
 
+NumericStdNoWarnings = 1
+StdArithNoWarnings = 1
 [lmc]
 ; The simulator's interface to Logic Modeling's SmartModel SWIFT software
 libsm = $MODEL_TECH/libsm.sl
@@ -2108,11 +2110,19 @@ suppress = 8780 ;an explanation can be had by running: verror 8780
 Project_Version = 6
 Project_DefaultLib = work
 Project_SortMethod = unused
-Project_Files_Count = 2
-Project_File_0 = C:/Modelsim_projects/lab1c/min_max_finder_part3_M1.v
-Project_File_P_0 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 last_compile 1726372421 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 cover_optlevel 3 vlog_showsource 0 vlog_hazard 0 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 0 cover_expr 0 dont_compile 0 cover_stmt 0
-Project_File_1 = C:/Modelsim_projects/lab1c/min_max_finder_part3_M1_tb.v
-Project_File_P_1 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 last_compile 1515330432 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 cover_optlevel 3 vlog_showsource 0 vlog_hazard 0 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 1 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_Files_Count = 6
+Project_File_0 = C:/Modelsim_projects/labfifo/producer.vhd
+Project_File_P_0 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1515332677 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 3 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_1 = C:/Modelsim_projects/labfifo/consumer.vhd
+Project_File_P_1 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1515332038 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 0 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_2 = C:/Modelsim_projects/labfifo/fifo_reg_array_sc_n_bit_pointers_exercise.v
+Project_File_P_2 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 folder {Top Level} cover_branch 0 cover_fsm 0 last_compile 1728134431 vlog_noload 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 cover_optlevel 3 vlog_showsource 0 vlog_hazard 0 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 5 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_3 = C:/Modelsim_projects/labfifo/fifo_reg_array_sc_n_plus_one_bit_pointers.v
+Project_File_P_3 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1581864226 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 2 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_4 = C:/Modelsim_projects/labfifo/fifo_reg_array_n_bit_pointers_sc_tb.vhd
+Project_File_P_4 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1515332517 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_warn2 1 vhdl_explicit 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 3 vhdl_options {} vhdl_warn5 1 toggle - ood 0 cover_noshort 0 compile_to work compile_order 4 cover_nosub 0 dont_compile 0 vhdl_use93 2002
+Project_File_5 = C:/Modelsim_projects/labfifo/fifo_reg_array_n_plus_one_bit_pointers_sc_tb.vhd
+Project_File_P_5 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1515332635 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 1 dont_compile 0 cover_nosub 0 vhdl_use93 2002
 Project_Sim_Count = 0
 Project_Folder_Count = 0
 Echo_Compile_Output = 0

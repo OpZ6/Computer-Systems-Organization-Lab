@@ -1,0 +1,432 @@
+# Reading C:/modeltech64_10.6e/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6e Jun 23 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project FIFO lab
+do fifo_reg_array_sc_n_plus_one_bit_wave.do
+run 500ns
+# No Design Loaded!
+vsim -gui work.fifo_reg_array_sc
+# vsim -gui work.fifo_reg_array_sc 
+# Start time: 05:17:01 on Oct 05,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fifo_reg_array_sc(fast)
+do fifo_reg_array_sc_n_plus_one_bit_wave.do
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/prod/reset'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/prod/full'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/prod/wen'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/prod/data_to_send'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/prod/producerptr'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/prod/latency_counter'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/prod/wclk_clock_count'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/clk'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/reset'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/data_in'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/wen'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/ren'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/data_out'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 17
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/empty'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/full'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 19
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/Reg_Array'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/rdptr'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 21
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/wrptr'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 22
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/depth'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 23
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/wenq'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 24
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/fifo/renq'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 25
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/cons/reset'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 27
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/cons/empty'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 28
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/cons/ren'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 29
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/cons/data_to_consume'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 30
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/cons/con_mem'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 31
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/cons/consumeptr'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 32
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/cons/counter'.
+# Executing ONERROR command at macro ./fifo_reg_array_sc_n_plus_one_bit_wave.do line 33
+cd 
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 05:17:58 on Oct 05,2024, Elapsed time: 0:00:57
+# Errors: 86, Warnings: 0
+# reading C:/modeltech64_10.6e/win64/../modelsim.ini
+# Loading project lab1c
+vsim -gui work.min_max_finder_part3_M1_tb -novopt
+# vsim -gui work.min_max_finder_part3_M1_tb -novopt 
+# Start time: 05:18:56 on Oct 05,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.min_max_finder_part3_M1_tb
+# Loading work.min_max_finder_part3_M1
+run 5000ns
+# Test number   1: Max: 245 decimal = f5 hex   and   Min:   2 decimal = 02 hex
+#     Design entered DONE state from   CMx .
+#            Clocks taken for this test = 26. 
+# 
+# Test number   2: Max: 185 decimal = b9 hex   and   Min:   1 decimal = 01 hex
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 25. 
+# 
+# Test number   3: Max: 222 decimal = de hex   and   Min:  30 decimal = 1e hex
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 31. 
+# 
+# Test number   4: Max: 255 decimal = ff hex   and   Min:   0 decimal = 00 hex
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 31. 
+# 
+# Test number   5: Max: 130 decimal = 82 hex   and   Min: 115 decimal = 73 hex
+#     Design entered DONE state from   CMx .
+#            Clocks taken for this test = 16. 
+# 
+# Test number   6: Max: 130 decimal = 82 hex   and   Min: 115 decimal = 73 hex
+#     Design entered DONE state from   CMn .
+#            Clocks taken for this test = 17. 
+# 
+# Test number   7: Max: 130 decimal = 82 hex   and   Min: 117 decimal = 75 hex
+#     Design entered DONE state from  CMxF .
+#            Clocks taken for this test = 20. 
+# 
+# Test number   8: Max: 129 decimal = 81 hex   and   Min:  35 decimal = 23 hex
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 19. 
+# 
+# Test number   9: Max: 162 decimal = a2 hex   and   Min:   2 decimal = 02 hex
+#     Design entered DONE state from  CMnF .
+#            Clocks taken for this test = 25. 
+# 
+quit -sim
+# End time: 05:19:17 on Oct 05,2024, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+# reading C:/modeltech64_10.6e/win64/../modelsim.ini
+# Loading project FIFO lab
+vsim -gui -novopt work.fifo_tb
+# vsim -gui -novopt work.fifo_tb 
+# Start time: 05:23:35 on Oct 05,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing C:/Modelsim_projects/labfifo/work.fifo_tb(behv_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.fifo_tb(behv_tb)
+# Loading work.fifo_reg_array_sc
+# Refreshing C:/Modelsim_projects/labfifo/work.producer(behv)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.producer(behv)
+# Refreshing C:/Modelsim_projects/labfifo/work.consumer(behv)
+# Loading work.consumer(behv)
+add wave -position insertpoint  \
+sim:/fifo_tb/clk_tb \
+sim:/fifo_tb/reset_tb \
+sim:/fifo_tb/data_in_tb \
+sim:/fifo_tb/wen_tb \
+sim:/fifo_tb/ren_tb \
+sim:/fifo_tb/data_out_tb \
+sim:/fifo_tb/empty_tb \
+sim:/fifo_tb/full_tb \
+sim:/fifo_tb/depth_tb \
+sim:/fifo_tb/clk_period
+run 500ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/PROD
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/PROD
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/PROD
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 3  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 3  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 3  Instance: /fifo_tb/CONS
+run 50000
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 570 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 570 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 570 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1330 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1330 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1330 ns  Iteration: 6  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1370 ns  Iteration: 3  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1370 ns  Iteration: 3  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1370 ns  Iteration: 3  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1590 ns  Iteration: 3  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1590 ns  Iteration: 3  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1590 ns  Iteration: 3  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1950 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1950 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1950 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2090 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2090 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2090 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2390 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2390 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2390 ns  Iteration: 4  Instance: /fifo_tb/CONS
+# ** Note: End of Producer File
+#    Time: 5230 ns  Iteration: 1  Instance: /fifo_tb/PROD
+# Load canceled
+quit -sim
+# End time: 05:28:49 on Oct 05,2024, Elapsed time: 0:05:14
+# Errors: 1, Warnings: 44
+do C:/Modelsim_projects/labfifo/fifo_reg_array_n_plus_one_bit_pointers_sc.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 05:29:22 on Oct 05,2024
+# vlog -reportprogress 300 fifo_reg_array_sc_n_plus_one_bit_pointers.v "+acc" 
+# -- Compiling module fifo_reg_array_sc
+# 
+# Top level modules:
+# 	fifo_reg_array_sc
+# End time: 05:29:22 on Oct 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 05:29:22 on Oct 05,2024
+# vcom -reportprogress 300 producer.vhd "+acc" 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Compiling entity producer
+# -- Compiling architecture behv of producer
+# End time: 05:29:22 on Oct 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 05:29:22 on Oct 05,2024
+# vcom -reportprogress 300 consumer.vhd "+acc" 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Compiling entity consumer
+# -- Compiling architecture behv of consumer
+# End time: 05:29:23 on Oct 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 05:29:23 on Oct 05,2024
+# vcom -reportprogress 300 fifo_reg_array_n_plus_one_bit_pointers_sc_tb.vhd "+acc" 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_textio
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture behv_tb of fifo_tb
+# End time: 05:29:23 on Oct 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -lib work fifo_tb 
+# Start time: 05:29:23 on Oct 05,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.fifo_tb(behv_tb)#1
+# Loading work.fifo_reg_array_sc(fast)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.producer(behv)#1
+# Loading work.consumer(behv)#1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1
+# 1
+# 1
+# ** Note: End of Producer File
+#    Time: 5230 ns  Iteration: 1  Instance: /fifo_tb/PROD
+quit -sim
+# End time: 05:30:12 on Oct 05,2024, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+do C:/Modelsim_projects/labfifo/fifo_reg_array_n_bit_pointers_sc_tb.vhd
+# ** Error: bad option "ieee": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+# Error in macro C:\Modelsim_projects\labfifo\fifo_reg_array_n_bit_pointers_sc_tb.vhd line 39
+# bad option "ieee": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+#     while executing
+# "library ieee"
+# Compile of consumer.vhd was successful.
+# Compile of fifo_reg_array_n_plus_one_bit_pointers_sc_tb.vhd was successful.
+# Compile of fifo_reg_array_sc_n_plus_one_bit_pointers.v was successful.
+# Compile of producer.vhd was successful.
+# Compile of fifo_reg_array_n_bit_pointers_sc_tb.vhd was successful.
+# Compile of fifo_reg_array_sc_n_bit_pointers_exercise.v failed with 6 errors.
+# 6 compiles, 1 failed with 6 errors.
+# Compile of consumer.vhd was successful.
+# Compile of fifo_reg_array_n_plus_one_bit_pointers_sc_tb.vhd was successful.
+# Compile of fifo_reg_array_sc_n_plus_one_bit_pointers.v was successful.
+# Compile of producer.vhd was successful.
+# Compile of fifo_reg_array_n_bit_pointers_sc_tb.vhd was successful.
+# Compile of fifo_reg_array_sc_n_bit_pointers_exercise.v was successful.
+# 6 compiles, 0 failed with no errors.
+do C:/Modelsim_projects/labfifo/fifo_reg_array_n_bit_pointers_sc_exercise.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 06:20:57 on Oct 05,2024
+# vlog -reportprogress 300 fifo_reg_array_sc_n_bit_pointers_exercise.v "+acc" 
+# -- Compiling module fifo_reg_array_sc
+# 
+# Top level modules:
+# 	fifo_reg_array_sc
+# End time: 06:20:57 on Oct 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 06:20:57 on Oct 05,2024
+# vcom -reportprogress 300 producer.vhd "+acc" 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Compiling entity producer
+# -- Compiling architecture behv of producer
+# End time: 06:20:57 on Oct 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 06:20:57 on Oct 05,2024
+# vcom -reportprogress 300 consumer.vhd "+acc" 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Compiling entity consumer
+# -- Compiling architecture behv of consumer
+# End time: 06:20:57 on Oct 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 06:20:57 on Oct 05,2024
+# vcom -reportprogress 300 fifo_reg_array_n_bit_pointers_sc_tb.vhd "+acc" 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_textio
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture behv_tb of fifo_tb
+# End time: 06:20:57 on Oct 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -lib work fifo_tb 
+# Start time: 06:20:57 on Oct 05,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.fifo_tb(behv_tb)#1
+# Loading work.fifo_reg_array_sc(fast)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.producer(behv)#1
+# Loading work.consumer(behv)#1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# 1
+# 1
+# 1
+# ** Note: End of Producer File
+#    Time: 5230 ns  Iteration: 1  Instance: /fifo_tb/PROD
+quit -sim
+# End time: 06:27:10 on Oct 05,2024, Elapsed time: 0:06:13
+# Errors: 0, Warnings: 0
